@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Estate Header & Hero</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="/assets/css/syles.css" />
+    <link rel="stylesheet" href="/assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Navbar Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark" id="nav-container">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#">
+            <img
+              src="/assets/images/bird-nest-house-logo-vector-4599_03.png"
+              alt="Logo"
+              style="height: 50px; width: auto" />
+          </a>
+
+          <button
+            type="button"
+            class="d-md-none text-light fs-2"
+            id="navbarToggle"
+            aria-label="Toggle Navigation"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+            <i class="bi bi-justify-left"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+
+              <!-- Buy Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-white dropdown-toggle-custom"
+                  href="#"
+                  id="buyDropdown">
+                  Buy
+                  <span class="arrow"><i class="bi bi-chevron-down"></i> </span>
+                </a>
+                <ul class="dropdown-menu-custom">
+                  <li>
+                    <a class="dropdown-item-custom" href="#">Apartments</a>
+                  </li>
+                  <li><a class="dropdown-item-custom" href="#">Houses</a></li>
+                  <li>
+                    <a class="dropdown-item-custom" href="#">Commercial
+                      Properties</a>
+                  </li>
+                  <li><a class="dropdown-item-custom" href="#">Land</a></li>
+                </ul>
+              </li>
+
+              <!-- Rent Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-white dropdown-toggle-custom"
+                  href="#"
+                  id="rentDropdown">
+                  Rent
+                  <span class="arrow"><i class="bi bi-chevron-down"></i> </span>
+                </a>
+                <ul class="dropdown-menu-custom">
+                  <li>
+                    <a class="dropdown-item-custom" href="#">Apartments</a>
+                  </li>
+                  <li><a class="dropdown-item-custom" href="#">Houses</a></li>
+                  <li><a class="dropdown-item-custom" href="#">Offices</a></li>
+                  <li><a class="dropdown-item-custom" href="#">Shops</a></li>
+                </ul>
+              </li>
+
+              <!-- Lease Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-white dropdown-toggle-custom"
+                  href="#"
+                  id="leaseDropdown">
+                  Lease
+                  <span class="arrow"><i class="bi bi-chevron-down"></i> </span>
+                </a>
+                <ul class="dropdown-menu-custom">
+                  <li>
+                    <a class="dropdown-item-custom" href="#">Commercial
+                      Spaces</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item-custom" href="#">Warehouses</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item-custom" href="#">Retail Outlets</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Project Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-white dropdown-toggle-custom"
+                  href="#"
+                  id="projectDropdown">
+                  Project
+                  <span class="arrow"><i class="bi bi-chevron-down"></i> </span>
+                </a>
+                <ul class="dropdown-menu-custom">
+                  <li>
+                    <a class="dropdown-item-custom" href="#">Upcoming
+                      Projects</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item-custom" href="#">Ongoing
+                      Projects</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item-custom" href="#">Completed
+                      Projects</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item fw-bold">
+                <a class="nav-link text-white" href="#">
+                  <span class="text-white ms-3 fw-bold"><i
+                      class="bi bi-telephone-fill"></i> 8010 500 900</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero__section section__pad">
+      <div class="hero__sectionBg_box">
+        <img rel="preload" src="/assets/images/heroImg.webp" alt="Hero Image" />
+      </div>
+      <div class="container section__container_wrapper">
+        <div class="section__header__title">
+          <h1>
+            FIND THE PROPERTY <br />
+            <span>OF YOUR DREAMS</span>
+          </h1>
+        </div>
+
+        <!-- Tabs Navigation -->
+        <div class="hero__section__tabnavigation">
+          <ul class="nav hero__tabnavigation__menu nav-pills" role="tablist">
+            <li class="tabnavigation__menu__item nav-item">
+              <button
+                class="nav-link active"
+                data-bs-toggle="pill"
+                data-bs-target="#newProjects">
+                <i class="bi bi-building"></i>
+                <span>New Projects</span>
+              </button>
+            </li>
+            <li class="tabnavigation__menu__item nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#buyProperties">
+                <i class="bi bi-house-door"></i>
+                <span>Buy Properties</span>
+              </button>
+            </li>
+            <li class="tabnavigation__menu__item nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#rentProperties">
+                <i class="bi bi-calendar-check"></i>
+                <span>Rent Properties</span>
+              </button>
+            </li>
+            <li class="tabnavigation__menu__item nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#rentProperties">
+                <i class="bi bi-people"></i>
+                <span>PG / Hostels</span>
+              </button>
+            </li>
+            <li class="tabnavigation__menu__item nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#rentProperties">
+                <i class="bi bi-tree"></i>
+                <span>Plot & Land</span>
+              </button>
+            </li>
+            <li class="tabnavigation__menu__item nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#rentProperties">
+                <i class="bi bi-calendar-fill"></i>
+                <span>Comercial Properties</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Search Filters -->
+        <div class="search-card">
+          <!-- New Projects Tab -->
+          <div class="tab-pane fade show active" id="newProjects">
+            <form class="row search__card__from">
+              <div class="col-lg-3">
+                <div class="input-group">
+                  <span class="input-group-text"><i
+                      class="bi bi-search"></i></span>
+                  <input
+                    type="text"
+                    class="form-control form-select-lg"
+                    placeholder="Search projects..." />
+                </div>
+              </div>
+
+              <!-- City Dropdown -->
+              <div class="col-lg-3">
+                <div class="input-group">
+                  <span class="input-group-text"><i
+                      class="bi bi-geo-alt"></i></span>
+                  <select class="form-select form-select-lg">
+                    <option>Select City</option>
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Builder Dropdown -->
+              <div class="col-lg-3">
+                <div class="input-group">
+                  <span class="input-group-text"><i
+                      class="bi bi-building"></i></span>
+                  <select class="form-select form-select-lg">
+                    <option>Select Builder</option>
+                    <option>Lodha Group</option>
+                    <option>Godrej Properties</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Search Button -->
+              <div class="col-lg-3">
+                <button class="btn">
+                  <i class="bi bi-search me-2"></i>Search Now
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Buy Properties Tab -->
+          <div class="tab-pane fade" id="buyProperties">
+            <form class="row search__card__from">
+              <!-- Search Input -->
+              <div class="col-lg-3">
+                <div class="input-group">
+                  <span class="input-group-text"><i
+                      class="bi bi-search"></i></span>
+                  <input
+                    type="text"
+                    class="form-control form-select-lg"
+                    placeholder="Search properties..." />
+                </div>
+              </div>
+
+              <!-- City Dropdown -->
+              <div class="col-lg-3">
+                <div class="input-group">
+                  <span class="input-group-text"><i
+                      class="bi bi-geo-alt"></i></span>
+                  <select class="form-select form-select-lg">
+                    <option>Select City</option>
+                    <option>Hyderabad</option>
+                    <option>Pune</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Price Dropdown -->
+              <div class="col-lg-3">
+                <div class="input-group">
+                  <span class="input-group-text"><i
+                      class="bi bi-currency-rupee"></i></span>
+                  <select class="form-select form-select-lg">
+                    <option>Budget Range</option>
+                    <option>Under ₹50L</option>
+                    <option>₹50L - ₹1Cr</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Search Button -->
+              <div class="col-lg-3">
+                <button class="btn">
+                  <i class="bi bi-search me-2"></i>Search Now
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="choose__section bg__one section__pad">
+      <div class="container section__container_wrapper">
+        <div class="section__header__title">
+          <h2>Why Choose <span>Us</span></h2>
+          <div class="divider"></div>
+        </div>
+
+        <!-- choose Card TOp -->
+        <div class="row mt-4" data-aos="fade-up">
+          <!-- 1st card -->
+          <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="card choose__card">
+              <div class="choose__card__imgbox">
+                <img
+                  src="/assets/images/easy-consultation.png"
+                  alt="consultation"
+                  class="img-fluid" />
+              </div>
+              <div class="col-12">
+                <div class="card-body choose__card__content">
+                  <h5>Easy Consultation</h5>
+                  <p>
+                    We help the buyers from starting to the end of home purchase
+                    by understanding their needs and offering them the ideal
+                    investment opportunities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd card -->
+          <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="card choose__card">
+              <div class="choose__card__imgbox">
+                <img
+                  src="/assets/images/easy-consultation.png"
+                  alt="consultation"
+                  class="img-fluid" />
+              </div>
+              <div class="col-12">
+                <div class="card-body choose__card__content">
+                  <h5>Easy Consultation</h5>
+                  <p>
+                    We help the buyers from starting to the end of home purchase
+                    by understanding their needs and offering them the ideal
+                    investment opportunities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3rd card -->
+          <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="card choose__card">
+              <div class="choose__card__imgbox">
+                <img
+                  src="/assets/images/easy-consultation.png"
+                  alt="consultation"
+                  class="img-fluid" />
+              </div>
+              <div class="col-12">
+                <div class="card-body choose__card__content">
+                  <h5>Easy Consultation</h5>
+                  <p>
+                    We help the buyers from starting to the end of home purchase
+                    by understanding their needs and offering them the ideal
+                    investment opportunities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Counter design for Awards and Stats -->
+        <div class="awards__counter container" data-aos="fade-up">
+          <div class="row awards__counter__wrapper">
+            <!-- Industry Experience -->
+            <div class="col-sm-2 award__counter__box">
+              <h2><span class="counter" data-target="9">0</span>+</h2>
+              <p>Years of Industry Experience</p>
+            </div>
+            <!-- Awards -->
+            <div class="col-sm-2 award__counter__box">
+              <h2><span class="counter" data-target="100">0</span>+</h2>
+              <p>Awards Recognizing Excellence</p>
+            </div>
+            <!-- Satisfied Clients -->
+            <div class="col-sm-2 award__counter__box">
+              <h2><span class="counter" data-target="2000">0</span>+</h2>
+              <p class="text-black fw-semibold fs-6">Satisfied Clients</p>
+            </div>
+            <!-- Collaborating Developers -->
+            <div class="col-sm-2 award__counter__box">
+              <h2><span class="counter" data-target="40">0</span>+</h2>
+              <p>Collaborating Developers</p>
+            </div>
+            <!-- Ongoing & Completed Projects -->
+            <div class="col-sm-2 awardHover text-center">
+              <h2 class="text-warning fw-bolder fs-1 mb-3">
+                <span class="counter" data-target="100">0</span>+
+              </h2>
+              <p class="text-black fw-semibold fs-6">
+                Ongoing & Completed Projects
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Most Popular Places Section -->
+    <section class="polular__section section__pad" data-aos="fade-up">
+      <div class="container section__container_wrapper">
+        <div class="section__header__title">
+          <h2>Most Popular <span>Places</span></h2>
+          <div class="divider"></div>
+        </div>
+
+        <!-- Card Place Popular -->
+        <div class="row mt-3 g-4" data-aos="fade-up">
+          <!-- Card1 -->
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="popular__place__card">
+              <img
+                src="/assets/images/mumbai-city-places-small.webp"
+                alt="Coochbehar"
+                class="place-img" />
+              <h3>Coochbehar</h3>
+              <div class="layer">
+                <h2>Coochbehar</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Facere excepturi consequuntur recusandae, ut possimus.
+                </p>
+                <a href="#">See More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="popular__place__card">
+              <img
+                src="/assets/images/delhi-city-places-small.webp"
+                alt="Jalpaiguri"
+                class="place-img" />
+              <h3>Jalpaiguri</h3>
+              <div class="layer">
+                <h2>Jalpaiguri</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Facere excepturi consequuntur recusandae, ut possimus.
+                </p>
+                <a href="#">See More</a>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="popular__place__card">
+              <img
+                src="/assets/images/mumbai-city-places-small.webp"
+                alt="Kolkata "
+                class="place-img" />
+              <h3>Kolkata</h3>
+              <div class="layer">
+                <h2>Kolkata</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Facere excepturi consequuntur recusandae, ut possimus.
+                </p>
+                <a href="#">See More</a>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="popular__place__card">
+              <img
+                src="/assets/images/noida-city-places-small.webp"
+                alt="Kalimpong"
+                class="place-img" />
+              <h3>Kalimpong</h3>
+              <div class="layer">
+                <h2>Kalimpong</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Facere excepturi consequuntur recusandae, ut possimus.
+                </p>
+                <a href="#">See More</a>
+              </div>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="popular__place__card">
+              <img
+                src="/assets/images/mumbai-city-places-small.webp"
+                alt="Darjeeling"
+                class="place-img" />
+              <h3>Darjeeling</h3>
+              <div class="layer">
+                <h2>Darjeeling</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Facere excepturi consequuntur recusandae, ut possimus.
+                </p>
+                <a href="#">See More</a>
+              </div>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="popular__place__card">
+              <img
+                src="/assets/images/pune-city-places-small.webp"
+                alt="Siliguri"
+                class="place-img" />
+              <h3>Siliguri</h3>
+              <div class="layer">
+                <h2>Siliguri</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Facere excepturi consequuntur recusandae, ut possimus.
+                </p>
+                <a href="#">See More</a>
+              </div>
+            </div>
+          </div>
+          <!-- card 7 -->
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="popular__place__card">
+              <img
+                src="/assets/images/goa-city-places-small.webp"
+                alt="Malda"
+                class="place-img" />
+              <h3>Malda</h3>
+              <div class="layer">
+                <h2>Malda</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Facere excepturi consequuntur recusandae, ut possimus.
+                </p>
+                <a href="#">See More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 8 -->
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="popular__place__card">
+              <img
+                src="/assets/images/himachal-pradesh-city-places-small.webp"
+                alt="Durgapur"
+                class="place-img" />
+              <h3>Durgapur</h3>
+              <div class="layer">
+                <h2>Durgapur</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Facere excepturi consequuntur recusandae, ut possimus.
+                </p>
+                <a href="#">See More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- HOT Selling Projects Section -->
+<section class="hot__selling_section section__pad" data-aos="fade-up">
+  <div class="container">
+    <h2 class="text-center mb-4">Hot Selling Projects in India</h2>
+    
+    <!-- Tabs -->
+    <div class="text-center tabs mb-4">
+      <button class="btn btn-dark">Mumbai</button>
+      <button class="btn btn-light">Thane</button>
+      <button class="btn btn-light">Navi Mumbai</button>
+      <button class="btn btn-light">Pune</button>
+      <button class="btn btn-light">Gurgaon</button>
+      <button class="btn btn-light">Bangalore</button>
+      <button class="btn btn-light">Noida</button>
+      <button class="btn btn-light">Hyderabad</button>
+      <button class="btn btn-light">Chennai</button>
+    </div>
+    
+    <div class="row align-items-start mt-4">
+      <!-- Left Card -->
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="hot__selling__leftcard p-4 text-center shadow-lg rounded">
+          <img src="/assets/images/building-img.svg" alt="Building-img" class="img-fluid mb-3">
+          <h3>Best Sellers in India</h3>
+          <p>Welcome to India's finest residential developments, showcasing apartments and villas designed by renowned builders nationwide. Our team provides expert guidance from selection to possession.</p>
+          <button class="btn btn-dark">View All</button>
+        </div>
+      </div>
+      
+      <!-- Right Side Carousel -->
+      <div class="col-lg-8 col-md-6 col-12">
+        <div class="owl-carousel owl-theme">
+          <div class="project-card rounded shadow-sm">
+            <div class="image-container">
+              <img src="/assets/images/project11.avif" alt="Project Image">
+            </div>
+            <div class="content p-3">
+              <h5 class="fw-bold">JP Codename Highway Touch</h5>
+              <p class="text-muted">Andheri East, Mumbai</p>
+              <p class="fw-bold text-primary">₹9.30 Lac to 1.57 Cr</p>
+              <p>1, 2 BHK Flats</p>
+              <button class="btn btn-outline-primary btn-sm">Get Call Back</button>
+            </div>
+          </div>
+          <div class="project-card rounded shadow-sm">
+            <div class="image-container">
+              <img src="/assets/images/project11.avif" alt="Project Image">
+            </div>
+            <div class="content p-3">
+              <h5 class="fw-bold">Godrej Reserve Kandivali</h5>
+              <p class="text-muted">Kandivali East, Mumbai</p>
+              <p class="fw-bold text-primary">₹2.4 Cr to 7.74 Cr</p>
+              <p>2, 3, 4 BHK Flats</p>
+              <button class="btn btn-outline-primary btn-sm">Get Call Back</button>
+            </div>
+          </div>
+          <div class="project-card rounded shadow-sm">
+            <div class="image-container">
+              <img src="/assets/images/project11.avif" alt="Project Image">
+            </div>
+            <div class="content p-3">
+              <h5 class="fw-bold">Godrej Reserve Kandivali</h5>
+              <p class="text-muted">Kandivali East, Mumbai</p>
+              <p class="fw-bold text-primary">₹2.4 Cr to 7.74 Cr</p>
+              <p>2, 3, 4 BHK Flats</p>
+              <button class="btn btn-outline-primary btn-sm">Get Call Back</button>
+            </div>
+          </div>
+          <div class="project-card rounded shadow-sm">
+            <div class="image-container">
+              <img src="/assets/images/project11.avif" alt="Project Image">
+            </div>
+            <div class="content p-3">
+              <h5 class="fw-bold">Godrej Reserve Kandivali</h5>
+              <p class="text-muted">Kandivali East, Mumbai</p>
+              <p class="fw-bold text-primary">₹2.4 Cr to 7.74 Cr</p>
+              <p>2, 3, 4 BHK Flats</p>
+              <button class="btn btn-outline-primary btn-sm">Get Call Back</button>
+            </div>
+          </div>
+          <div class="project-card rounded shadow-sm">
+            <div class="image-container">
+              <img src="/assets/images/project11.avif" alt="Project Image">
+            </div>
+            <div class="content p-3">
+              <h5 class="fw-bold">Godrej Reserve Kandivali</h5>
+              <p class="text-muted">Kandivali East, Mumbai</p>
+              <p class="fw-bold text-primary">₹2.4 Cr to 7.74 Cr</p>
+              <p>2, 3, 4 BHK Flats</p>
+              <button class="btn btn-outline-primary btn-sm">Get Call Back</button>
+            </div>
+          </div>
+          <div class="project-card rounded shadow-sm">
+            <div class="image-container">
+              <img src="/assets/images/project11.avif" alt="Project Image">
+            </div>
+            <div class="content p-3">
+              <h5 class="fw-bold">Godrej Reserve Kandivali</h5>
+              <p class="text-muted">Kandivali East, Mumbai</p>
+              <p class="fw-bold text-primary">₹2.4 Cr to 7.74 Cr</p>
+              <p>2, 3, 4 BHK Flats</p>
+              <button class="btn btn-outline-primary btn-sm">Get Call Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+
+    <!-- Our Service Section -->
+    <section class="service__section section__pad">
+      <div class="container-fluid section__container_wrapper">
+        <div class="section__header__title">
+          <h2 class="text-white">
+            Our <span class="text-black">Services</span>
+          </h2>
+          <div class="divider-white mb-4"></div>
+        </div>
+        <div
+          class="row service__card__wrapper gap-3 gap-md-0"
+          data-aos="fade-up">
+          <!-- Commercial -->
+          <div class="col-lg-2 col-md-4 col-sm-6 ">
+            <div class="card service__card">
+              <img
+                src="/assets/images/pune-city-places-small.webp"
+                alt="Commercial" />
+              <div class="card-overlay service__card__title">
+                <span>
+                  <i class="bi bi-building"></i>
+                  <!-- Office building icon -->
+                </span>
+                <h5>Commercial</h5>
+                <a href="#" class="btn btn-sm btn-warning mt-1">View
+                  Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Residential -->
+          <div class="col-lg-2 col-md-4 col-sm-6 ">
+            <div class="card service__card">
+              <img
+                src="/assets/images/pune-city-places-small.webp"
+                alt="Residential" />
+              <div class="card-overlay service__card__title">
+                <span>
+                  <i class="bi bi-house-door"></i>
+                  <!-- House icon -->
+                </span>
+                <h5>Residential</h5>
+                <a href="#" class="btn btn-sm btn-warning mt-1">View
+                  Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Leased -->
+          <div class="col-lg-2 col-md-4 col-sm-6 ">
+            <div class="card service__card">
+              <img
+                src="/assets/images/pune-city-places-small.webp"
+                alt="Leased" />
+              <div class="card-overlay service__card__title">
+                <span>
+                  <i class="bi bi-file-earmark-text"></i>
+                  <!-- Document icon -->
+                </span>
+                <h5>Leased</h5>
+                <a href="#" class="btn btn-sm btn-warning mt-1">View
+                  Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Land/Plot -->
+          <div class="col-lg-2 col-md-4 col-sm-6 ">
+            <div class="card service__card">
+              <img
+                src="/assets/images/pune-city-places-small.webp"
+                alt="Land/Plot" />
+              <div class="card-overlay service__card__title">
+                <span>
+                  <i class="bi bi-pin-map"></i>
+                  <!-- Map pin icon -->
+                </span>
+                <h5>Land/Plot</h5>
+                <a href="#" class="btn btn-sm btn-warning mt-1">View
+                  Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Warehouse -->
+          <div class="col-lg-2 col-md-4 col-sm-6 ">
+            <div class="card service__card">
+              <img
+                src="/assets/images/pune-city-places-small.webp"
+                alt="Warehouse" />
+              <div class="card-overlay service__card__title">
+                <span>
+                  <i class="bi bi-box-seam"></i>
+                  <!-- Storage box icon -->
+                </span>
+                <h5>Warehouse</h5>
+                <a href="#" class="btn btn-sm btn-warning mt-1">View
+                  Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- iN HOUSE Services section -->
+    <section class="inhouse__service__section section__pad"
+      data-aos="fade-up">
+      <div class="container-fluid section__container_wrapper">
+        <div
+          class="inhouse__service__wrapper">
+          <div class="inhouse__service__header">
+            <h2>Everything you Need at One Place</h2>
+            <h5 class="text-muted">In-House Services</h5>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col-md-2 col-sm-6 col-6 mb-4">
+              <div
+                class="inhouse__service__card"
+                data-bs-toggle="modal"
+                data-bs-target="#enquiryModal">
+                <img src="/assets/images/escrow-services.png"
+                  alt="Home Loan" />
+                <p>Home Loan</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-6 mb-4">
+              <div
+                class="inhouse__service__card"
+                data-bs-toggle="modal"
+                data-bs-target="#enquiryModal">
+                <img src="/assets/images/escrow-services.png"
+                  alt="Home Loan" />
+                <p>Home Interior</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-6 mb-4">
+              <div
+                class="inhouse__service__card"
+                data-bs-toggle="modal"
+                data-bs-target="#enquiryModal">
+                <img src="/assets/images/escrow-services.png"
+                  alt="Home Loan" />
+                <p>Property Legal Services</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-6 mb-4">
+              <div
+                class="inhouse__service__card"
+                data-bs-toggle="modal"
+                data-bs-target="#enquiryModal">
+                <img src="/assets/images/escrow-services.png"
+                  alt="Home Loan" />
+                <p>Property Management</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-6 mb-4">
+              <div
+                class="inhouse__service__card"
+                data-bs-toggle="modal"
+                data-bs-target="#enquiryModal">
+                <img src="/assets/images/escrow-services.png"
+                  alt="Home Loan" />
+                <p>Escrow Services</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-6 mb-4">
+              <div
+                class="inhouse__service__card"
+                data-bs-toggle="modal"
+                data-bs-target="#enquiryModal">
+                <img src="/assets/images/escrow-services.png"
+                  alt="Home Loan" />
+                <p>Online Rent Agreement</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-6 mb-4">
+              <div
+                class="inhouse__service__card"
+                data-bs-toggle="modal"
+                data-bs-target="#enquiryModal">
+                <img src="/assets/images/escrow-services.png"
+                  alt="Home Loan" />
+                <p>Rent Receipt Generator</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-6 mb-4">
+              <div
+                class="inhouse__service__card"
+                data-bs-toggle="modal"
+                data-bs-target="#enquiryModal">
+                <img src="/assets/images/escrow-services.png"
+                  alt="Home Loan" />
+                <p>Sell or Rent Property</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-6 mb-4">
+              <div
+                class="inhouse__service__card"
+                data-bs-toggle="modal"
+                data-bs-target="#enquiryModal">
+                <img src="/assets/images/escrow-services.png"
+                  alt="Home Loan" />
+                <p>Title Search</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-6 mb-4">
+              <div
+                class="inhouse__service__card"
+                data-bs-toggle="modal"
+                data-bs-target="#enquiryModal">
+                <img src="/assets/images/escrow-services.png"
+                  alt="Home Loan" />
+                <p>Litigation</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-6 mb-4">
+              <div
+                class="inhouse__service__card"
+                data-bs-toggle="modal"
+                data-bs-target="#enquiryModal">
+                <img src="/assets/images/escrow-services.png"
+                  alt="Home Loan" />
+                <p>Valuation</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-6 mb-4">
+              <div
+                class="inhouse__service__card"
+                data-bs-toggle="modal"
+                data-bs-target="#enquiryModal">
+                <img src="/assets/images/escrow-services.png"
+                  alt="Home Loan" />
+
+                <p>Property Registration</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enquiry From Modal from taget inhouse from click to -->
+    <div
+      class="modal fade"
+      id="enquiryModal"
+      tabindex="-1"
+      aria-labelledby="enquiryModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0">
+          <!-- Enquiry Header -->
+          <div class="modal-header bg-primary text-white p-4">
+            <div class="pe-3">
+              <h3>Contact Us</h3>
+              <p class="text-white-50 mb-0 small">
+                Let's discuss your project requirements
+              </p>
+            </div>
+            <button
+              type="button"
+              class="btn-close btn-close-white m-0"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- Enquiry Body -->
+          <div class="modal-body p-4">
+            <form class="needs-validation" novalidate>
+              <div class="row g-3">
+                <!-- Name -->
+                <div class="col-12">
+                  <label for="fullName"
+                    class="form-label small text-muted mb-1">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control form-control-lg rounded-1 border-0 bg-light"
+                    id="fullName"
+                    placeholder="John Smith"
+                    required />
+                </div>
+
+                <!--Enquiry Contact Info -->
+                <div class="col-md-6">
+                  <label for="email"
+                    class="form-label small text-muted mb-1">Email</label>
+                  <input
+                    type="email"
+                    class="form-control form-control-lg rounded-1 border-0 bg-light"
+                    id="email"
+                    placeholder="john@company.com"
+                    required />
+                </div>
+
+                <div class="col-md-6">
+                  <label for="phone"
+                    class="form-label small text-muted mb-1">Phone</label>
+                  <input
+                    type="tel"
+                    class="form-control form-control-lg rounded-1 border-0 bg-light"
+                    id="phone"
+                    placeholder="+1 (555) 000-0000"
+                    required />
+                </div>
+
+                <!-- Enquiry Message -->
+                <div class="col-12">
+                  <label for="message"
+                    class="form-label small text-muted mb-1">Message</label>
+                  <textarea
+                    class="form-control form-control-lg rounded-1 border-0 bg-light"
+                    id="message"
+                    rows="3"
+                    placeholder="Describe your project requirements"></textarea>
+                </div>
+
+                <!-- Enquiry Submit -->
+                <div class="col-12 pt-1">
+                  <button
+                    type="submit"
+                    class="btn btn-primary btn-lg w-100 py-2 fs-6">
+                    Send Message
+                    <span class="ms-2">→</span>
+                  </button>
+                </div>
+
+                <!-- Privacy Note -->
+                <div class="col-12 text-center mt-3">
+                  <p class="small text-muted mb-0">
+                    We respect your privacy. Data secured with SSL encryption.
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Major Developer -->
+    <section class="major__dev__section section__pad">
+      <div class="container section__container_wrapper" data-aos="fade-up">
+        <div class="section__header__title ">
+          <h2 class>
+            Major <span>Developer</span>
+          </h2>
+          <div class="divider"></div>
+        </div>
+        <div class="row justify-content-center" data-aos="fade-up">
+          <!-- Developer Cards -->
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="major__dev__card hover-effect">
+              <img
+                src="/assets/images/bird-nest-house-logo-vector-4599_03.png"
+                alt="Brand Logo" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="major__dev__card hover-effect">
+              <img
+                src="/assets/images/bird-nest-house-logo-vector-4599_03.png"
+                alt="Brand Logo" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="major__dev__card hover-effect">
+              <img
+                src="/assets/images/bird-nest-house-logo-vector-4599_03.png"
+                alt="Brand Logo" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="major__dev__card hover-effect">
+              <img
+                src="/assets/images/bird-nest-house-logo-vector-4599_03.png"
+                alt="Brand Logo" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="major__dev__card hover-effect">
+              <img
+                src="/assets/images/bird-nest-house-logo-vector-4599_03.png"
+                alt="Brand Logo" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="major__dev__card hover-effect">
+              <img
+                src="/assets/images/bird-nest-house-logo-vector-4599_03.png"
+                alt="Brand Logo" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="major__dev__card hover-effect">
+              <img
+                src="/assets/images/bird-nest-house-logo-vector-4599_03.png"
+                alt="Brand Logo" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="major__dev__card hover-effect">
+              <img
+                src="/assets/images/bird-nest-house-logo-vector-4599_03.png"
+                alt="Brand Logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

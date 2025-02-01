@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  .hero {
+    height: 90vh;
+  }
+  .property-tabs .nav {
+    gap: 1px !important;
+  }
+  .property-tabs .nav-link {
+    padding: 4px !important;
+  }
+
+  .property-tabs .small {
+    font-size: 0.8rem;
+  }
+  .search-card {
+    padding: 0.7rem;
+  }
+  .hero__tabnavigation__menu {
+    gap: 0;
+  }
+  .hero__section .nav-pills .nav-link {
+    padding: 0.55rem 0.7rem;
+  }
+
+  .section__header__title h2 {
+    font-size: 20px;
+  }
+}
